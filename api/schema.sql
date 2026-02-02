@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS vexon_db;
+USE vexon_db;
+
+CREATE TABLE IF NOT EXISTS guild_settings (
+    guild_id VARCHAR(255) PRIMARY KEY,
+    modules JSON,
+    config JSON,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

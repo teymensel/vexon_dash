@@ -1,0 +1,16 @@
+{
+    "name": "vexon-bot-core",
+    "version": "1.0.0",
+    "description": "Discord bot core for Vexon Dash",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.48.1",
+        "discord.js": "^14.17.3",
+        "dotenv": "^16.4.7",
+        "mysql2": "^3.16.2"
+    }
+}
